@@ -1,0 +1,307 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{ 
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  
+}
+
+header nav{
+  background-color: rgb(255, 255, 255);
+  height: 80px;
+  width: 100%;
+  margin-top: -5%;
+}
+img{
+  padding: 5%;
+  margin-bottom: -8%;
+  margin-left: 5%;
+}
+
+nav ul{
+  float: right;
+  margin: 20px;
+
+}
+
+nav ul li{
+  color: rgb(126, 126, 126);
+  display: inline-block;
+  line-height: 85px;
+  margin: 0 10px; 
+  margin-left: 15px;
+  margin-top: -40%;
+}
+
+nav ul li a{
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: uppercase;
+}
+a.active,a:hover{
+  color: rgb(216, 57, 57);
+  transition: 5s;
+}
+
+ 
+ 
+a.childicon,a:hover{
+  color: rgb(189, 62, 62);
+  transition: 2s;
+}
+
+/* For desktops and laptops */
+@media (min-width: 1024px) {
+  /* Your CSS styles for desktop here */
+}
+
+/* For tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Your CSS styles for tablets here */
+}
+
+/* For mobile phones */
+@media (max-width: 767px) {
+  /* Your CSS styles for mobile here */
+}
+
+.section-container,content h1{
+   text-overflow: hidden; 
+   font-weight: bolder;
+  color: rgb(56, 48, 63);
+  margin-top: 18%;
+  margin-bottom: 20%;
+  margin-left: 10%;
+  font-size: 30px;
+}
+
+.image{
+  margin-left: 35%;
+  margin-top: -60%;
+}
+
+ /* For desktops and laptops */
+@media (min-width: 1024px) {
+  /* Your CSS styles for desktop here */
+}
+
+/* For tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Your CSS styles for tablets here */
+}
+
+/* For mobile phones */
+@media (max-width: 767px) {
+  /* Your CSS styles for mobile here */
+}
+
+.slider-container1,img{
+  margin-top: -20%;
+  display: flex;
+
+  
+  margin-left: 5%;
+  justify-content: center;
+
+}
+
+.slider-container2,img{
+  margin-top: -1.8%;
+  display: flex;
+  margin-left: 4%;
+  justify-content: center;
+}
+
+
+/* For desktops and laptops */
+@media (min-width: 1024px) {
+  /* Your CSS styles for desktop here */
+}
+
+/* For tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Your CSS styles for tablets here */
+}
+
+/* For mobile phones */
+@media (max-width: 767px) {
+  /* Your CSS styles for mobile here */
+}
+
+
+.div1{
+  margin-top: -4%;
+}
+
+
+.PARA8{
+  margin-left: 35%;
+  font-weight: bold;
+margin-top: 10%;
+font-size: larger;
+  color: rgb(199, 106, 0);
+}
+
+.disc{
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+
+.column {
+  margin-top: 2%;
+  float: left;
+  width: 24%;
+  padding: 0 0px;
+}
+
+
+.row {margin: 0 -5px;}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  padding: 1.0%;
+  text-align: center;
+  background-color: #fff7f7;
+}
+
+
+/* For desktops and laptops */
+@media (min-width: 1024px) {
+  /* Your CSS styles for desktop here */
+}
+
+/* For tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Your CSS styles for tablets here */
+}
+
+/* For mobile phones */
+@media (max-width: 767px) {
+  /* Your CSS styles for mobile here */
+}
+
+.slid{
+  display: flex;
+  float: left;
+  justify-content: center;
+  margin-left: 13%;
+  margin-top: 5%;
+}
+
+.slid2{
+  display: flex;
+  float: left;
+  justify-content: center;
+  margin-top: 6%;
+  margin-left: 13%;
+}
+
+/* For desktops and laptops */
+@media (min-width: 1024px) {
+  /* Your CSS styles for desktop here */
+}
+
+/* For tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Your CSS styles for tablets here */
+}
+
+/* For mobile phones */
+@media (max-width: 767px) {
+  /* Your CSS styles for mobile here */
+}
+
+
+.category1 {
+  background-color:  rgb(51, 55, 75);
+  margin-top: 60%;
+  padding: 10px;
+  margin: 5px;
+}
+
+.category2 {
+  background-color:  rgb(51, 55, 75);
+  margin-top: -1%;
+  padding: 10px;
+  margin: 5px;
+}
+
+.category3 {
+  background-color:  rgb(51, 55, 75);
+  margin-top: -1%;
+  padding: 10px;
+  margin: 5px;
+}
+ 
+.category4 {
+  background-color:  rgb(51, 55, 75);
+  margin-top: -1%;
+  padding: 10px;
+  margin: 5px;
+}
+
+.category5 {
+  background-color:  rgb(51, 55, 75);
+  margin-top: -1%;
+  padding: 10px;
+  margin: 5px;
+}
+
+.category6 {
+  background-color: rgb(51, 55, 75);
+  margin-top: -1%;
+  padding: 10px;
+  margin: 5px;
+}
+
+.ftext{
+  margin-top: 20px;
+  color: #ffffff;
+ margin-left: 10%;
+}
+
+
+.ftr{
+  
+  color: #ffffff;
+  margin-left: 30%;
+}
+
+.menu-icon{
+  background-color: rgb(51, 55, 75);
+  margin-left: 10%;
+}
+
+.fa{
+  color: hsl(0, 0%, 100%);
+ 
+  margin-left: 60%;
+}
+/* For desktops and laptops */
+@media (min-width: 1024px) {
+  /* Your CSS styles for desktop here */
+}
+
+/* For tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Your CSS styles for tablets here */
+}
+
+/* For mobile phones */
+@media (max-width: 767px) {
+  /* Your CSS styles for mobile here */
+}
